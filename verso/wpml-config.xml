@@ -1,0 +1,10 @@
+<wpml-config>
+    <custom-types>	<custom-type translate="1">santos-portfolio</custom-type>	 <custom-type translate="1">santos-slider</custom-type>
+    </custom-types>
+    <taxonomies>	<taxonomy translate="1">santos-portfolio-category</taxonomy>	<taxonomy translate="1">santos-sliders</taxonomy>
+    </taxonomies>
+    <admin-texts>
+		<key name="santos_options">		<key name="chimp_url" />		<key name="chimp_submit_msg" />		<key name="chimp_success_msg" />		<key name="chimp_error_invalid_value" />		<key name="chimp_error_invalid_sign" />		<key name="chimp_error_invalid_domain" />		<key name="chimp_error_invalid_username" />		<key name="chimp_error_invalid_email" />
+		</key>
+	</admin-texts>  
+</wpml-config>

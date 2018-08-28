@@ -1,0 +1,1190 @@
+/*
+ Theme Name:   Verso Child
+ Theme URI:    http://atena.agency
+ Template:     verso
+ Version:      1.1
+*/
+
+/* =Theme customization starts here
+--------------------------------------------- */
+body {
+    background-color: #141417;
+}
+
+h2, h3, h4, p {
+    letter-spacing: 2px;
+}
+.btn:hover, .btn:focus {
+    color: #fff;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    cursor: pointer;
+}
+[data-aos][data-aos][data-aos-duration='400'], body[data-aos-duration='400'] [data-aos] {
+    transition-duration: 0.8s !important;
+}
+.verso-red {
+    color: #FFFFFF;
+    background: #ea5453; /* macchina */
+    transition: .2s All linear;
+}
+.verso-red:hover {
+    color: #FFFFFF;
+    background: rgba(234, 84, 83, 0.9); /* macchina */
+}
+.verso-yellow {
+    color: #fcc349; /* prodotto */
+}
+.verso-lightblue {
+    color: #43a1da; /* servizio */
+}
+.navbar-brand {
+    height: 80px;
+}
+.nav {
+    padding: 13px 0;
+}
+.blogTitle h1 {
+    font-size: 85px;
+}
+.productText h2{
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 1.4;
+    font-size: 27px;
+    margin-top: 15%;
+    transition: .2s All linear;
+}
+.componenti-wrapper {
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.componenti-wrapper p {
+    font-weight: lighter;
+}
+.text-tab {
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+/* SINGLE PAGE */
+.vc_pie_chart .vc_pie_chart_value {
+    font-size: 130%;
+    text-align: center;
+    color: #FFF;
+}
+
+/* OWL CAROUSEL START*/
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #ffffff;
+}
+
+.recentDiv {
+     margin-bottom: 0;
+}
+
+/* end fix */
+
+.owl-nav > div {
+    margin-top: -26px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.owl-theme .owl-nav [class*='owl-'] {
+    color: #FFF;
+    background: transparent;
+}
+
+.owl-nav i {
+    font-size: 37px;
+}
+
+.owl-nav .owl-prev {
+    left: -30px;
+    cursor: pointer;
+}
+
+.owl-nav .owl-next {
+    right: -30px;
+    cursor: pointer;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: transparent;
+    color: #FFF;
+}
+
+/* OWL CAROUSEL END*/
+
+/* VERSO BUTTON START */
+
+.btn-verso {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    font-size: 2.1em;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background: transparent;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: .15s All ease-out;
+    /* VERSO BUTTON END */
+}
+
+.btn-verso:hover {
+
+}
+
+.btn-verso span {
+    position: relative;
+   display: inline;
+    margin-left:5px;
+    line-height: 1.3;
+}
+
+.gusti-icon {
+    background: url("/wp-content/uploads/2018/01/gusti-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+    margin-bottom:-7px;
+}
+.contatti-icon {
+    background: url("/wp-content/uploads/2018/01/contatti.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+    margin-bottom:-7px;
+}
+
+.download-icon {
+    background: url("/wp-content/uploads/2018/01/download.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+    margin-bottom:-7px;
+}
+
+.send-icon {
+    background: url("/wp-content/uploads/2018/01/paper-plane.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+    margin-bottom:-7px;
+    margin-right: 17px;
+
+}
+
+/* Contatti */
+
+.input-contact input[type="text"], .input-contact input[type="email"], .input-contact input[type="text"], .input-contact input[type="email"] {
+
+    border: 1px solid #FFF;
+    border-radius: 2px;
+}
+
+.textarea-contact textarea {
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+
+}
+
+#contact_form .btn.btn-blue{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    font-size: 2.1em;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    color: #FFFFFF;
+    background: transparent;
+    overflow: hidden;
+    box-sizing: border-box;
+    transition: .15s All ease-out;
+}
+
+
+/* = GUSTI START
+-------------------------------------------------------------- */
+ul.gruppo-gusti {
+    display: inline-block;
+    margin: 30px 0;
+    padding: 30px 10px 15px 10px;
+    border: 1.5px solid #FBC249;
+    border-radius: 15px;
+}
+
+
+@media (max-width: 1100px) {
+    ul#ginseng {
+        max-width: 690px;
+    }
+}
+
+ul.gruppo-gusti li img {
+    width: 12vw;
+    max-width: 100px;
+    max-height: 180px;
+    margin-bottom: 15px;
+}
+ul.gruppo-gusti li p {
+    display: block;
+    text-transform: uppercase;
+    color: #FFF;
+    letter-spacing: 2px;
+    min-height: 20px;
+}
+ul.gruppo-gusti li {
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+}
+
+/* infographic  */
+
+#infographic {
+    text-align: center;
+}
+
+#infographic svg {
+    max-width: 500px;
+}
+
+/* Icon Servizi */
+
+.icon-servizio svg {
+    min-width:100px;
+}
+
+.camion .wpb_wrapper {
+    padding: 20px 20%;
+}
+
+.icon-servizio .drop .wpb_wrapper {
+    padding: 20px 30%;;
+}
+
+.icon-servizio .circle .wpb_wrapper {
+    padding: 20px 30%;
+;
+}
+
+.camion .wpb_wrapper svg, .circle .wpb_wrapper svg {
+    padding-right: 160px;
+    padding-top: 10px;
+}
+/* Lio Breakfast single page*/
+
+.lio-b-svg {
+    text-align: center
+}
+
+.gusti-lio-b-wrapper {
+    text-align: center;
+}
+
+.gusti-lio-b-wrapper ul {
+    list-style: none;
+    font-family: "Open Sans";
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-size: 28px;
+    text-align: left;
+}
+
+.pesi-misure-lio-b {
+    text-align: center;
+}
+
+.gusti-lio-b-wrapper ul span {
+    color: #fcc249;
+    display: inline-block;
+    margin-right: 20px;
+    border: 2px solid #fcc249;
+    border-radius: 50%;
+    padding: 2px 10px;
+    font-size: 20px; }
+
+.gusti-lio-b-wrapper ul span.duoble-num {
+    padding: 5px 7px;
+}
+
+.gusti-lio-b-wrapper ul li {
+    padding: 10px 0;
+    text-transform:uppercase;
+}
+
+li.search {
+    margin-top: 9px;
+}
+
+/* Section colors */
+
+body.prodotti:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5vw;
+    background: #fcc249;
+    transition: .3s All ease-in-out;
+}
+
+/* Footer */
+.copyrights p {
+    padding-left: 15px;
+    font-size: 10px;
+    line-height: 14px;
+    margin: 0;
+    color: #FFF;
+}
+
+
+/* Scroll Icon */
+a.scroll-icon {
+    display: none;
+}
+
+/* Slider hero */
+.slider-hero {
+    padding: 50px 0;
+}
+/* Image macchine Zoom */
+
+.wpb_single_image.image-zoom {
+    position: relative;
+    border-radius: 10px;
+    padding: 10px 3px;
+    cursor: pointer;
+
+}
+.wpb_single_image.image-zoom:after {
+    content: "ZOOM";
+    padding-top:26%;
+    font-size: 6rem;
+    font-weight: 900;
+    color: #f8f8f8;
+    text-shadow: 2px 2px 2px #000000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom:0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity:0;
+    background:rgba(204, 196, 141, 0.31);
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    transition: .2s All ease-in-out;
+}
+.close-btn {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.4rem;
+    background: #ffda44;
+    color: #000;
+}
+.close-btn:hover {
+    color: rgba(0,0,0,0.9);
+}
+.wpb_single_image.image-zoom:hover:after {
+    opacity: 1;
+    transition: .2s All ease-in-out;
+}
+
+/* image full width */
+.image-full-width {
+    position: fixed;
+    left: 100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    transition: .3s all ease-in-out;
+}
+.image-full-width.in {
+    left: 0;
+}
+.image-full-width.blackBg {
+    background: #000000;
+}
+.img-wrapper {
+    position: relative;
+    overflow-Y: scroll;
+    width: 100%;
+    height: 80%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 5vw 5px;
+
+}
+.img-wrapper img {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+}
+
+.img-vasche {
+    text-align: center;
+}
+.cap-vasche ul > li{
+    list-style: none !important;
+}
+.cap-vasche ul > li {
+    text-align: center;
+    padding-left: 8vw;
+    letter-spacing: 2px;
+}
+
+#macchine-vendita {
+    position: relative;
+}
+
+.bg-red {
+    position: absolute;
+    margin-left:-15px;
+}
+
+.bg-red span {
+    background: #E95452;
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.banner-opzioni h4 {
+    line-height: 1;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.svg-offerte svg {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.btn-maggiori-info svg, .btn-gusti-disp svg {
+    padding-right: 10%;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.banner-macchine {
+    border: 3px solid #70FF5C;
+}
+.gusti-disponibili {
+    border: 3px solid #FBC249;
+}
+
+div.gusti-disponibili {
+    padding: 30px 0;
+    border-radius: 3px;
+    margin: 50px 0 ;
+}
+
+/* Gusti single page*/
+
+.newsDate, .personDiv{
+    display: none;
+}
+.blogTitle h1 {
+    color: #FFFFFF;
+}
+.blogTitle {
+    padding-top: 30px;
+}
+img.img-responsive.img-rounded.wp-post-image {
+    padding: 50px 0;
+    margin: auto;
+}
+.title-image-single-prodotti {
+    display: block;
+}
+
+/* Archive page */
+.image-archive-wrapper{
+    padding: 10% 3% 0 3%;
+}
+body.archive .greySection, body.archive .backgrondGrey {
+    background: #000000;
+}
+body.archive .titleHed.backgrondGrey h1 {
+    color: #FFFFFF;
+}
+
+body.archive .contentBlogDiv .post_title {
+text-align: center;
+}
+body.archive .titlebar-hed a, body.archive .breadcrumb a {
+    color: #fff;
+}
+
+.tags > p, .post-tags li a{
+    color: #fff;
+}
+
+.excerpt-archive {
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+body.archive .newsBox:hover {
+    background: #fff;
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    box-shadow: 0px 4px 32px rgba(255, 249, 56, 0.5);
+}
+body.archive .newsBox {
+    border: 3px solid rgba(255, 249, 56, 0.7);
+}
+
+.archive-link {
+    width: 100%;
+    height: 100%;
+}
+
+body.archive .img-portrait a img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+body.archive .img-portrait {
+    text-align: center;
+}
+
+/* MACCHINE VENDITA LOOP CATEGORY START */
+
+.macchine-vendita .archive-wrapper {
+    height: 207px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    margin: 20px auto 0 auto;
+    max-width: 500px;
+    position: relative;
+}
+
+.macchine-vendita .archive-wrapper h2 {
+    color: #FFF;
+    padding: 20% 0;
+    max-height: 60px;
+    font-size: 2.2rem;
+    line-height: 1.3;
+
+}
+
+.macchine-vendita .archive-wrapper .btn-more {
+    display: inline-block;
+    position: relative;
+    padding: 10px 5px;
+    border-radius: 2px;
+    top: 40px;
+    z-index: 2;
+    text-transform: uppercase;
+    color: #000;
+    min-width: 120px;
+    background: #fbf149;
+    border-color: transparent;
+    transition: .2s all ease-in-out;
+}
+
+.macchine-vendita .archive-wrapper .btn-more:hover {
+    background: #fff76b;
+}
+
+
+.first-half {
+    position: relative;
+    /*border: 1px solid yellow;*/
+    height: 100%;
+}
+
+.first-half:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 96%;
+    height: 75%;
+    top: 12.5%;
+    left: 0;
+    border-right: 1px solid #FFF;
+}
+
+.second-half {
+    position: relative;
+    /*border: 1px solid red;*/
+    height: 100%;
+    /*background-image: url("https://dummyimage.com/400x400/00ff40/0011ff.jpg");*/
+    /*background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;*/
+    overflow: hidden;
+}
+.second-half a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.second-half a img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.text-bg-red {
+    background: #ea5453;
+    padding: 2px 5px;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.kverso-svg {
+    max-width: 180px;
+    margin: auto;
+}
+.newsBox .img-responsive {
+    width: auto;
+    margin: 0 auto;
+}
+.contentBlogDiv {
+    padding: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.newsBox h4 {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#shareDiv h4 {
+    color: #FFF;
+}
+.macchine-vendita .archive-wrapper .post_738 h2, .macchine-vendita .archive-wrapper .post_772 h2 {
+    font-size: 1em;
+    line-height: 1.3;
+}
+
+
+.categories {
+    display: table;
+    margin: 25px 0;
+    width: 100%;
+}
+
+.categories > p, .post-tags li a {
+    color: #fff !important;
+}
+.categories > p {
+    color: #333;
+}
+.categories > p, .categories > ul {
+    float: left;
+    margin: 0!important;
+    list-style: none;
+}
+.prova-wrapper {
+    height: auto;
+    background: #000;
+    margin: 20px 0;
+    width: 100%;
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.prova-wrapper label {
+    color: #FFF;
+    font-size: 13px;
+}
+.prova-wrapper input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    color: black;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+div#wpcf7-f933-o1 {
+    text-align: center;
+}
+.wpcf7-response-output.wpcf7-display-none.wpcf7-mail-sent-ok {
+    color: #FFF;
+}
+
+
+.prova-wrapper input.wpcf7-form-control.wpcf7-submit {
+    background: #60b429;
+    color: #FFF;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-size: 1.5em;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+
+.page-title {
+    color: #FFF;
+}
+
+.item-fadeIn {
+    opacity: 0;
+    transition: .3s all ease-out;
+}
+
+.blogTitle h1 {
+    font-size: 29px !important;
+}
+
+body .wpb_wrapper p {
+    font-weight: 200 !important;
+}
+
+nav li a {
+    font-family: "Open Sans";
+    /*text-transform: lowercase;*/
+    font-size: 11px;
+    font-weight: 200;
+    letter-spacing: 1.1px;
+    padding: 14px 13px !important;
+}
+
+nav li a[title="cta-menu"] {
+    border: 0.5px solid #FFF;
+    border-radius: 3px;
+    background-color: #b51673 !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    padding: 14px 7px !important;
+
+}
+
+.prodotti-item a {
+    display: block;
+}
+
+.prodotti-item:hover {
+    transform: translateY(-4px);
+}
+.blogTitle h1 {
+    line-height: 1.3;
+}
+.prodotti-item {
+    margin: 30px auto;
+    height: 313px;
+    transition: .25s all linear;
+}
+
+.prodotti-item a img {
+    
+}
+
+.prodotti-item .title,.newsBox h3.post_title a, .contentBlogDiv .post_title   {
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: "Open Sans";
+    line-height: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.contentBlogDiv .post_title:hover {
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: "Open Sans";
+    line-height: 24px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.newsBox:not(.quoteBox) .contentBlogDiv .post_title a:hover {
+    color: #FFF !important;
+}
+
+body.archive .newsBox {
+    background: transparent;
+    border-color: transparent;
+}
+
+body.archive .newsBox:hover {
+    background: transparent;
+    box-shadow: none;
+}
+
+
+.breadcrumb .inner {
+    color: #FFF;
+}
+
+.breadcrumb .inner a {
+    color: #b9b7b7;
+}
+
+.wpb_text_column.wpb_content_element.img-prodotti {
+    text-align: center;
+}
+
+@media (min-width: 1025px) {
+    nav.navbar.bootsnav ul.nav > li > a {
+        padding: 20px 13px;
+        font-weight: 200;
+    }
+}
+
+.single-prodotti_verso .featured-img {
+    display: none;
+}
+
+
+@media (max-width: 991px){
+    .single-prodotti_verso .featured-img {
+        display: none;
+    }
+    .single-prodotti_verso .img-prodotti .featured-img {
+        display: block;
+    }
+}
+
+
+
+
+@media (min-width: 768px) {
+
+    .blogTitle h1 {
+        font-size: 55px !important;
+    }
+
+.macchine-vendita .archive-wrapper .btn-more {
+position: relative;
+top: 55px;
+}
+
+.newsBox h3.post_title a {
+font-size: 20px !important;
+}
+.macchine-vendita .archive-wrapper .post_772 h2, .macchine-vendita .archive-wrapper .post_900 h2 {
+font-size: 1.4em;
+}
+
+.macchine-vendita .archive-wrapper .post_738 h2 {
+font-size: 1.15em;
+}
+}
+
+
+@media (min-width: 768px) {
+    .archivio-macchine .archive-wrapper .btn-more {
+        position: relative;
+        top: 55px;
+    }
+
+    .newsBox h3.post_title a {
+        font-size: 20px !important;
+
+    }
+    .archivio-macchine .archive-wrapper .post_772 h2, .archivio-macchine .archive-wrapper .post_900 h2,.archivio-macchine .archive-wrapper .post_1049 h2  {
+        font-size: 1.1em;
+    }
+
+    .archivio-macchine .archive-wrapper .post_738 h2 {
+        font-size: 1.15em;
+    }
+}
+
+
+@media (min-width: 1200px) {
+.kverso-svg {
+max-width: 230px;
+margin: auto;
+}
+
+.archivio-macchine .archive-wrapper .post_772 h2, .archivio-macchine .archive-wrapper .post_900 h2, .archivio-macchine .archive-wrapper .post_1049 h2 {
+font-size: 2em;
+}
+
+.archivio-macchine .archive-wrapper .post_738 h2 {
+font-size: 1.7em;
+}
+
+.archivio-macchine .archive-wrapper {
+height: 300px;
+}
+
+.archivio-macchine .archive-wrapper .btn-more {
+position: relative;
+top: 80px;
+}
+
+.archivio-macchine .archive-wrapper h2 {
+color: #FFF;
+padding: 25% 0;
+}
+
+.archivio-macchine .archive-wrapper h2 {
+font-size: 3.2rem;
+line-height: 1.3;
+}
+
+}
+#blogs .newsBox {
+
+padding-top: 15px;
+}
+
+.excerpt-archive {
+display: none;
+}
+
+.archivio-macchine {
+    min-height: 90vh;
+    padding: 130px 0;
+}
+
+/* METTICI ALLA PROVA */
+
+a.mettici-alla-prova {
+    position: fixed;
+    display: block;
+    left: 0;
+    top: 50%;
+    transform: translateX(-41%) rotate(-90deg);
+    padding: 11px 20px;
+    background: #b51673;
+    color: #FFF;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    text-decoration: none;
+    z-index: 8;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: .5s all linear;
+}
+
+.mettici-alla-prova.mobile {
+    position: fixed;
+    display: block;
+    text-align: center;
+    height: 50px;
+    left: 50%;
+    /* bottom: 0px; */
+    top: 94vh;
+    width: 100%;
+    max-width: 206px;
+    transform: translateX(-50%) rotate(0deg);
+    padding: 5px 10px;
+    background: #b51673;
+    color: #FFF;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    text-decoration: none;
+    z-index: 8;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    transition: .5s all linear;
+}
+
+
+
+
+/* MACCHINE VENDITA LOOP CATEGORY END */
+
+/* = GUSTI END
+-------------------------------------------------------------- */
+
+@media (max-width: 1200px) {
+    .btn-maggiori-info svg, .btn-gusti-disp svg {
+        padding-right: 30%;
+        cursor: pointer;
+    }
+    body.archive .img-portrait a img{
+        /*max-height: 107px;*/
+    }
+}
+
+@media (max-width: 992px) {
+    body .hero-text {
+        font-size: 64px;
+    }
+    body.archive .img-portrait a img{
+        /*max-height: 123px;*/
+    }
+    /* Line mobile */
+    .line-mobile:before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 80%;
+        left:50%;
+        transform: translateX(-50%);
+        height: 1px;
+        background: #ffffff;
+    }
+    .line-mobile {
+        margin-top:50px;
+    }
+    .btn-maggiori-info {
+        text-align: center;
+    }
+    .gusti-disponibili, .banner-opzioni, .banner-opzioni  .wpb_wrapper svg, .btn-gusti-disp svg{
+        padding-right:0;
+        text-align: center;
+        margin: 0 auto;
+    }
+    div#gusti-disponibili {
+        padding-top:0;
+    }
+
+    .gusti-disponibili h3 {
+        text-align: center !important;
+        padding: 30px 0;
+    }
+    .btn-maggiori-info svg {
+        padding-right: 0;
+        max-width: 200px;
+    }
+
+}
+
+@media (max-width: 768px){
+    #blogs .newsBox {
+        max-width: 340px;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width: 600px) {
+    body .hero-text {
+        font-size: 44px;
+    }
+    .slider-hero {
+        padding: 15% 0;
+    }
+    body.archive .titleHed.backgrondGrey h1 {
+        font-size: 2em;
+        line-height: 1.3em;
+    }
+    .titleHed {
+        position: relative;
+        text-align: center;
+        padding-top: 30px;
+    }
+}
+@media (max-width: 400px) {
+    body .hero-text {
+        font-size: 34px;
+        line-height: 1.26;
+    }
+
+    .titleHed {
+        position: relative;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .blogTitle h1 {
+        font-size: 65px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .productText h2{
+        margin-top: 25%;
+        font-size: 31px;
+    }
+    .vasche-ul {
+        margin-top:18px;
+    }
+    .vasche-ul li h6 {
+        font-size: 24px;
+        line-height: 1.4;
+    }
+    .newsBox .img-responsive {
+        width: auto;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .vasche-ul {
+        display: inline-block;
+    }
+    .cap-vasche {
+        text-align: center;
+    }
+    .cap-vasche ul li {
+        padding-left: 0vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .santos_hero.fullHeightSection .flex-box, .santos_hero.fullHeightSection.height_percent_90 .flex-box, .vc_row.fullHeightSection.height_percent_90 .flex-box, .santos_hero.fullHeightSection.height_percent_80 .flex-box, .vc_row.fullHeightSection.height_percent_80 .flex-box {
+        min-height: 430px;
+    }
+    .copyrights p {
+        padding-left: 15px;
+        font-size: 10px;
+        line-height: 14px;
+        margin: 0;
+    }
+}
+
+@media (max-width: 598px) {
+
+    .page-wrapper.padding-wrap {
+        padding: 30px 0;
+    }
+}
+
+@media (min-width: 600px) {
+    .mobile-show {
+        display: none;
+    }
+    .mobile-hide {
+        display: block;
+    }
+}
+@media (max-width: 600px) {
+.mobile-show {
+    display: block;
+}
+
+    .mobile-hide {
+        display: none;
+    }
+}
