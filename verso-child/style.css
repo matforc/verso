@@ -42,6 +42,11 @@ h2, h3, h4, p {
 .navbar-brand {
     height: 80px;
 }
+
+.navbar .navbar-brand img {
+    width: 200px !important;
+}
+
 .nav {
     padding: 13px 0;
 }
