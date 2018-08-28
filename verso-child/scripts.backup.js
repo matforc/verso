@@ -1,5 +1,4 @@
 (function($){
-
     let carouselProdottiCustom = ()=> {
         if ($('.santos_showcase_carousel').length>0 ) {
             var $slideItems = $('.santos_showcase_carousel').attr('data-slide-items') ? $('.santos_showcase_carousel').attr('data-slide-items') : 3 ;

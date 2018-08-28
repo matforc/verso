@@ -30,8 +30,8 @@
     <a class="mettici-alla-prova" href="/mettici-alla-prova">Mettici alla prova</a>
 
 
-
-<?php get_template_part('intro/intro') ?>
+//Removed intro
+<?php //get_template_part('intro/intro') ?>
 
 <svg class="hidden">
     <defs>
